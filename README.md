@@ -1,7 +1,7 @@
 
 # Loan Eligibility Prediction
 
-Developed a machine learning model that predicts loan default probabilities for bank customers. The dataset used to train the model was obtained from Kaggle and included various features such as age, income, loan amount, credit history, and loan eligibility status (default or not). After extensive data preprocessing and model training, the Logistic Regression model demonstrated promising predictive capabilities by achieving an accuracy of 71.59%.
+Developed a machine learning model that predicts loan default probabilities for bank customers. The dataset used to train the model was obtained from Kaggle and included various features such as age, income, loan amount, credit history, and loan eligibility status (default or not). After extensive data preprocessing and model training, both KNN and Logistic Regression model demonstrated promising predictive capabilities by achieving an accuracy of 71.59%.
 
 ## Dataset
 
@@ -32,6 +32,10 @@ Before training the machine learning models, the dataset undergoes preprocessing
 ## Model Comparison
 
 The performance of the logistic regression and KNN models is compared based on metrics such as accuracy, precision, recall, and F1-score.
+
+## Conclusion
+
+In this project, we developed machine learning models to predict loan eligibility based on applicant information. Both logistic regression and KNN achieved similar accuracy scores, but logistic regression had higher precision while KNN had higher recall.
 
 
 
